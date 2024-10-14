@@ -18,6 +18,10 @@
     - Instance connect needs you to open SSH port
     - SSM Manager is only for SSH-ing to Amazon Linux machines
     - You need to attach a role to the EC2 in order to use SSM Manager
+- SSM Manager services
+    - Run Command, Patch Manager, Maintenance Window,
+    - Automation: automate tasks such as restarting EC2, creating EBS snapshots
+
 
 ## AWS Opsworks
 
