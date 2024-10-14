@@ -1,5 +1,14 @@
 # Other Services
 
+## SES
+- Send emails
+
+## Pinpoint
+- Send email, SMS, push, voice, and in-app messaging.
+- You can receive replies
+- **Use Case**: run campaigns by sending marketing, bulk, transactional SMS messages
+- Example of apps with push notification: WhatsApp. It sends push notifications to alert users when they receive new messages, even when the app is not open. Other examples include social media apps like Facebook or Instagram, which notify users about likes, comments, or new messages
+
 ## AWS Opsworks
 
 - Chef and Puppet are open source platforms and allow to perform server configuration automatically
