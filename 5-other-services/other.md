@@ -12,6 +12,13 @@
     - Pinpoint allows for text and push notifications.
     - With Pinpoint it's easier to set up tempates, manage the different people your sending to. You don't need to this programatically from inside an app you built.
 
+## AWS SSM Manager
+- Allows you to do SSH to your EC2
+- **SSM Manager vs Instance Connect**:
+    - Instance connect needs you to open SSH port
+    - SSM Manager is only for SSH-ing to Amazon Linux machines
+    - You need to attach a role to the EC2 in order to use SSM Manager
+
 ## AWS Opsworks
 
 - Chef and Puppet are open source platforms and allow to perform server configuration automatically
