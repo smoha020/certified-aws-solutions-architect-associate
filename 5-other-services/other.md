@@ -8,6 +8,9 @@
 - You can receive replies
 - **Use Case**: run campaigns by sending marketing, bulk, transactional SMS messages
 - Example of apps with push notification: WhatsApp. It sends push notifications to alert users when they receive new messages, even when the app is not open. Other examples include social media apps like Facebook or Instagram, which notify users about likes, comments, or new messages
+- **Pinpoint vs SES vs SNS**:
+    - Pinpoint allows for text and push notifications.
+    - With Pinpoint it's easier to set up tempates, manage the different people your sending to. You don't need to this programatically from inside an app you built.
 
 ## AWS Opsworks
 
