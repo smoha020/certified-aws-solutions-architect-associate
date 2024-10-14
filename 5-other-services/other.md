@@ -21,7 +21,14 @@
 - SSM Manager services
     - Run Command, Patch Manager, Maintenance Window,
     - Automation: automate tasks such as restarting EC2, creating EBS snapshots
+ 
 
+## AWS Cost Explorer
+- We can create a savings plan
+
+## AWS Cost Anomally Detection
+- Monitors your cost and usage with the help of ML and then sends you a report.
+- You can notified periodically
 
 ## AWS Opsworks
 
