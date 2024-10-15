@@ -1,6 +1,6 @@
 # SNS - Simple Notification Service
 
-- Why is SNS needed?
+- Why is SNS needed? For example, can't we just create some logic in our Order Service to publish messages to all the other services (Inventory, Notification, and Shipping). Answer: you need to make the logic yourself which is hard to mannage.
 - Pub/Sub model
 - The event produces only sends messages to one SNS topic
 - Each subscriber to the topic will get all the messages be default (we can filter them, if we want)
