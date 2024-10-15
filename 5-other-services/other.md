@@ -33,6 +33,11 @@
 ## Batch
 - **Batch vs Lambda**: ???
 
+## AppFlow
+- Transfer data from SaaS applications like Salesforce, SAP, Zendesk, Slack, and ServiceNow to AWS or other destinations
+- **Use Case**: transfer the data in the accounts table from Sales Force to an S3 bucket as an excel file https://www.youtube.com/watch?v=RfFXxVt3l0k&ab_channel=NamrataHShah
+
+
 ## AWS Opsworks
 
 - Chef and Puppet are open source platforms and allow to perform server configuration automatically
