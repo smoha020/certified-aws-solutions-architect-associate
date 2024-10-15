@@ -37,6 +37,11 @@
 - Transfer data from SaaS applications like Salesforce, SAP, Zendesk, Slack, and ServiceNow to AWS or other destinations
 - **Use Case**: transfer the data in the accounts table from Sales Force to an S3 bucket as an excel file https://www.youtube.com/watch?v=RfFXxVt3l0k&ab_channel=NamrataHShah
 
+## Amplify
+- Remove complexiity for developers using Amplify commands.
+- **Use Case**: You want to create some apis and deploy them quickly. Once you write your code, you then run some amplify commands to deploy your code. Behind the scenes Amplify will use terraform to spin up an API gateway and a Lamda function. https://www.youtube.com/watch?v=HkbjHtG_d7w&ab_channel=BeABetterDev
+
+
 
 ## AWS Opsworks
 
