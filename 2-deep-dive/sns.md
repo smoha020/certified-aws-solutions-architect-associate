@@ -40,7 +40,7 @@
     - Useful for allowing other services (S3) to write to an SNS topic
 
 ## SNS + SQS Fan Out
-
+- SNS vs SQS: https://www.youtube.com/watch?v=mXk0MNjlO7A&ab_channel=BeABetterDev
 - Send a message to multiple SQS queues using SNS
 - Push one in SNS, receive in all SQS queues which are subscribers
 - Fully decouples, no data loss
