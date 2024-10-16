@@ -1,6 +1,12 @@
 # SNS - Simple Notification Service
 
-- Why is SNS needed? For example, can't we just create some logic in our Order Service to publish messages to all the other services (Inventory, Notification, and Shipping). Answer: you need to make the logic yourself which is hard to mannage.
+- Why is SNS needed? For example, can't we just create some logic in our Order Service to publish messages to all the other services (Inventory, Notification, and Shipping).
+    - Answer: you need to make the logic yourself which is hard to mannage. You will have to write code for the following:
+        - **Decoupling**: The Order Service would have to maintain knowledge of all subscriber services, including their APIs and how to interact with them. This leads to tighter coupling. Changes to any subscriber (like adding a new one or modifying an existing one) would require updates to the Order Service’s codebase, making it less maintainable.
+        - **Scalability**: The Order Service would need to implement logic to manage the load itself **??**, potentially having to queue messages within its code or using a local load balancer to distribute requests **??**. Scaling each subscriber would also require direct modifications to the Order Service, which complicates the architecture and can introduce single points of failure.
+        - **Flexibility**: The Order Service would need to implement conditional logic to determine how to send notifications based on the current method of communication (e.g., moving from email to mobile notifications). This would increase complexity and potentially introduce bugs if different notification paths are not properly maintained.
+        - Reliability: The Order Service would need to implement its own retry logic to handle failures when communicating with other services. This could involve complex error handling and state management to ensure messages are eventually processed, leading to a less robust system.
+        - **Asynchronous Processing**: 
 - Pub/Sub model
 - The event produces only sends messages to one SNS topic
 - Each subscriber to the topic will get all the messages be default (we can filter them, if we want)
