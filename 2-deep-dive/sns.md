@@ -1,6 +1,6 @@
 # SNS - Simple Notification Service
 
-- Why is SNS needed? For example, can't we just create some logic in our Order Service to publish messages to all the other services (Inventory, Notification, and Shipping).
+- Why is SNS needed? Assume we have an online bookstore. Can't we just create some logic in our Order Service to publish messages to all the other services (Inventory, Notification, and Shipping).
     - Answer: you need to make the logic yourself which is hard to mannage. You will have to write code for the following:
         - **Decoupling**: The Order Service would have to maintain knowledge of all subscriber services, including their APIs and how to interact with them. This leads to tighter coupling. Changes to any subscriber (like adding a new one or modifying an existing one) would require updates to the Order Service’s codebase, making it less maintainable.
         - **Scalability**: The Order Service would need to implement logic to manage the load itself **??**, potentially having to queue messages within its code or using a local load balancer to distribute requests **??**. Scaling each subscriber would also require direct modifications to the Order Service, which complicates the architecture and can introduce single points of failure.
@@ -9,6 +9,12 @@
         - **Asynchronous Processing**: The Order Service would need to wait for each subscriber to complete its processing before sending a response to the user.
         - **Load Distribution**: Each subscriber would need to implement its own load balancing **??**, potentially requiring additional infrastructure. The Order Service would have to include logic to manage concurrent requests and ensure that notifications are processed efficiently, complicating the system architecture.
         - **Integration with Other Services**: The Order Service would need to handle the integration logic, which includes retries, error handling, and maintaining the state of communications with multiple services. This tight integration would reduce the overall flexibility of the system and make it harder to implement new features or change existing ones.
+- Scaling Event Bus
+    - In the context of the online bookstore:
+        - When there is a spike in orders during a sale, the Order Service publishes a high volume of "OrderCreated" messages to the event bus.
+        - The event bus quickly scales to handle the influx, buffering the messages as needed.
+        - Multiple instances of the Inventory and Notification Services scale up in response, processing orders concurrently.
+        - If processing times slow down due to the spike, the event bus retains messages until the services can catch up, ensuring that no orders are missed or lost.
 - Pub/Sub model
 - The event produces only sends messages to one SNS topic
 - Each subscriber to the topic will get all the messages be default (we can filter them, if we want)
