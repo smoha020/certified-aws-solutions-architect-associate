@@ -120,7 +120,7 @@
 - After an instance recovery we will have the same private, public, elastic IP, same metadata and placement group
 - Any data stored on an instance store will not be kept
 
-## AWS CloudWatch Events
+## EventBridge (AWS CloudWatch Events)
 
 - CloudWatch events can be:
     - Scheduled: cron job
