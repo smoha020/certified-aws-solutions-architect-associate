@@ -74,6 +74,7 @@
 
 ## Delay Queue
 
+- **Use Case**: If a user places an order but you want to wait a set time (e.g., 5 minutes) to allow for cancellations, you can delay the message and process the order only after the waiting period.
 - Delaying a message means the consumers wont be able to see the message for a period of time after it was sent. Delay time can be up to 15 minutes
 - Delay can be set at a queue level or tt also can be set to message level using the **DelaySeconds** parameter
 
