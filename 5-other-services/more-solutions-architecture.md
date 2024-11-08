@@ -143,6 +143,7 @@ While HPC is powerful, it also presents several challenges:
 
 **High Performance Computing (HPC)** enables the processing of complex problems that require vast amounts of computational power, data storage, and fast interconnects. By utilizing parallel computing techniques and specialized hardware, HPC accelerates research and innovation across many scientific, engineering, and business domains. As computational needs continue to grow, HPC plays an increasingly crucial role in solving some of the world’s most pressing challenges, from climate change to AI-driven medical advancements.
 </details>
+
 - The cloud is the perfect place to perform HPC
 - We can use HPC to perform genomics, computational chemistry, financial risk modeling, weather prediction, machine learning, deep learning, etc.
 - Data Management and Transfer:
