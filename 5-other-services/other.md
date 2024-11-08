@@ -32,8 +32,7 @@
 
 ## Batch
 - **Batch vs Lambda**: ???
--
-<details>
+- <details>
 <summary>Batch Job Examples</summary>
 <br>
 This is how you dropdown.
