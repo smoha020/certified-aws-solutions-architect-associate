@@ -32,6 +32,12 @@
 
 ## Batch
 - **Batch vs Lambda**: ???
+-
+<details>
+<summary>Batch Job Examples</summary>
+<br>
+This is how you dropdown.
+</details>
 
 ## AppFlow
 - Transfer data from SaaS applications like Salesforce, SAP, Zendesk, Slack, and ServiceNow to AWS or other destinations
