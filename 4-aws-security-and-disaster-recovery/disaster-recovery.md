@@ -16,12 +16,12 @@
 
 - Backup and Restore: high RPO, cheap, easy to manage and accomplish
 - Pilot Light:
-    - A small version of the app is always running in the cloud
+    - A small version of the app is always running in the cloud (example: EC2 not running but RDS is running)
     - Useful for critical core (pilot light)
     - Similar to backup and restore strategy
     - Faster than backup and restore as critical system are already running
 - Warm Standby
-    - Full system is up and running but at a minimal size
+    - Full system is up and running but at a minimal size (example: Autoscaling group redirects traffic from on prem DB to RDS???) 
     - Upon disaster we can scale to production load
 - Hot Site / Multi Site Approach
     - Very low RTO - very expensive
