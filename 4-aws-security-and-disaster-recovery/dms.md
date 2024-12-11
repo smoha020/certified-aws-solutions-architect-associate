@@ -6,7 +6,7 @@
 - Supports:
     - Homogeneous migrations, example Oracle to Oracle
     - Heterogeneous migrations, example: Microsoft SQL Server to Aurora
-- Supports continuous data replication using CDC**???**
+- Supports continuous data replication using CDC **???**
 - We must create an EC2 instance to perform the replication tasks
 
 ## DMS Sources and Targets
