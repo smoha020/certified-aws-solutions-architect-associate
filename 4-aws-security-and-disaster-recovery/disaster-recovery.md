@@ -62,7 +62,8 @@
 
 - AWS Application Discovery Service:
     - This service is BEFORE you do the migration (with MGN)
-    - Agentless vs Agent-based discovery **??**
+    - Agentless vs Agent-based discovery
+        - <img width="533" alt="image" src="https://github.com/user-attachments/assets/40910045-3d5e-4933-8d51-dbdeda518675" />
     - Gather information about on-premise servers to plan a migration
     - Provides information about server utilization and dependency mappings
     - Track all migrations with AWS Migration Hub
