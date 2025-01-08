@@ -51,14 +51,14 @@
 
 ## On-Premise Strategy with AWS
 
-- Ability to download Amazon Linux 2 AMI as a VIM (iso format)
-- VM Import/Export:
-    - Ability to migrate existing applications into EC2
-    - Ability to create a DR repository for on-premise VMs
-    - Ability to export back the VMs form EC2 to on-premise
+- <img width="458" alt="image" src="https://github.com/user-attachments/assets/67bf12f0-1f34-4ffb-921c-d85752edb72c" />
+- AWS VM Import/Export:
+    - https://aws.amazon.com/ec2/vm-import/
 - AWS migration big picture
     - https://aws.amazon.com/blogs/architecture/accelerating-your-migration-to-aws/
     - <img width="413" alt="image" src="https://github.com/user-attachments/assets/fd633108-fe20-43db-9f09-035003bd65c7" />
+- AWS Server Migration Service (SMS): **DISCONTINUED**
+    - https://tutorialsdojo.com/aws-server-migration-service-sms/
 
 - AWS Application Discovery Service:
     - This service is BEFORE you do the migration (with MGN)
@@ -74,8 +74,6 @@
 - AWS Application Migration Service (MGN)
     - Migrate applications such as SAP, Oracle, and SQL Server running on physical servers, VMware vSphere, Microsoft Hyper-V, and other on-premises infrastructure.
     - <img width="535" alt="image" src="https://github.com/user-attachments/assets/8fc0e0c4-e570-4425-9eb4-f52553b3728e" />
-- AWS Server Migration Service (SMS): **??**
-    - Incremental replication of on-premise live servers to AWS
 
 ## RDS & Aurora MySQL Migration
 - Scenrario: You want to migrate data from RDS MySQL to Aurora MySQL. Here are the options:
