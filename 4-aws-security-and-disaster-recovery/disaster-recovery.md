@@ -88,3 +88,5 @@
  - Point in Time Recovery (PITR) is done when data is accidentally deleted or corrupted so you can roll back to the previous version of the data.
 - <img width="412" alt="image" src="https://github.com/user-attachments/assets/b3da5b4d-dba6-4d97-a225-32da8ffc6cdc" />
 
+## Transferring Large Amounts of Data into AWS
+- <img width="401" alt="image" src="https://github.com/user-attachments/assets/fc64d611-6d63-4eef-b580-4dd9033d4105" />
