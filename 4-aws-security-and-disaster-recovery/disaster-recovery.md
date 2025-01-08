@@ -29,7 +29,6 @@
 - All AWS Multi Region
 
 ## Disaster Recovery Tips
-
 - Backups:
     - EBS Snapshots, RDS, automated backups, snapshots, etc.
     - Regular pushes to S3/S3 IA/Glacier, Lifecycle Policy, Cross region replication
@@ -50,7 +49,6 @@
     - Netflix has a "simian-army" randomly terminating EC2 instances
 
 ## On-Premise Strategy with AWS
-
 - <img width="458" alt="image" src="https://github.com/user-attachments/assets/67bf12f0-1f34-4ffb-921c-d85752edb72c" />
 - AWS VM Import/Export:
     - https://aws.amazon.com/ec2/vm-import/
@@ -60,17 +58,17 @@
 - AWS Server Migration Service (SMS): **DISCONTINUED**
     - https://tutorialsdojo.com/aws-server-migration-service-sms/
 
-- AWS Application Discovery Service:
-    - This service is BEFORE you do the migration (with MGN)
-    - Agentless vs Agent-based discovery
-        - <img width="533" alt="image" src="https://github.com/user-attachments/assets/40910045-3d5e-4933-8d51-dbdeda518675" />
-    - Gather information about on-premise servers to plan a migration
-    - Provides information about server utilization and dependency mappings
-    - Track all migrations with AWS Migration Hub
-        - https://aws.amazon.com/blogs/mt/using-aws-migration-hub-network-visualization-to-overcome-application-and-server-dependency-challenges/
-        - <img width="448" alt="image" src="https://github.com/user-attachments/assets/e8d7de33-6e10-4844-83c1-c5bd15571ec0" />
+## AWS Application Discovery Service
+- This service is BEFORE you do the migration (with MGN)
+- Agentless vs Agent-based discovery
+    - <img width="533" alt="image" src="https://github.com/user-attachments/assets/40910045-3d5e-4933-8d51-dbdeda518675" />
+- Gather information about on-premise servers to plan a migration
+- Provides information about server utilization and dependency mappings
+- Track all migrations with AWS Migration Hub
+    - https://aws.amazon.com/blogs/mt/using-aws-migration-hub-network-visualization-to-overcome-application-and-server-dependency-challenges/
+    - <img width="448" alt="image" src="https://github.com/user-attachments/assets/e8d7de33-6e10-4844-83c1-c5bd15571ec0" />
 
-- AWS Database Migration Service (DMS)
+## AWS Database Migration Service (DMS)
 - AWS Application Migration Service (MGN)
     - Migrate applications such as SAP, Oracle, and SQL Server running on physical servers, VMware vSphere, Microsoft Hyper-V, and other on-premises infrastructure.
     - <img width="535" alt="image" src="https://github.com/user-attachments/assets/8fc0e0c4-e570-4425-9eb4-f52553b3728e" />
