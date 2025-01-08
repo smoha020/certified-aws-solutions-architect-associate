@@ -56,6 +56,10 @@
     - Ability to migrate existing applications into EC2
     - Ability to create a DR repository for on-premise VMs
     - Ability to export back the VMs form EC2 to on-premise
+- AWS migration big picture
+    - https://aws.amazon.com/blogs/architecture/accelerating-your-migration-to-aws/
+    - <img width="413" alt="image" src="https://github.com/user-attachments/assets/fd633108-fe20-43db-9f09-035003bd65c7" />
+
 - AWS Application Discovery Service:
     - This service is BEFORE you do the migration (with MGN)
     - Agentless vs Agent-based discovery **??**
