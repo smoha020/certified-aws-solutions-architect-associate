@@ -76,3 +76,6 @@
     - <img width="535" alt="image" src="https://github.com/user-attachments/assets/8fc0e0c4-e570-4425-9eb4-f52553b3728e" />
 - AWS Server Migration Service (SMS): **??**
     - Incremental replication of on-premise live servers to AWS
+
+## RDS & Aurora MySQL Migration
+- Scenrario: You want to migrate data from RDS MySQL to Aurora MySQL
