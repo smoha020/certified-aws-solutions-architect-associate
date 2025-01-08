@@ -66,6 +66,9 @@
     - Gather information about on-premise servers to plan a migration
     - Provides information about server utilization and dependency mappings
     - Track all migrations with AWS Migration Hub
+        - https://aws.amazon.com/blogs/mt/using-aws-migration-hub-network-visualization-to-overcome-application-and-server-dependency-challenges/
+        - <img width="448" alt="image" src="https://github.com/user-attachments/assets/e8d7de33-6e10-4844-83c1-c5bd15571ec0" />
+
 - AWS Database Migration Service (DMS)
 - AWS Application Migration Service (MGN)
     - <img width="535" alt="image" src="https://github.com/user-attachments/assets/8fc0e0c4-e570-4425-9eb4-f52553b3728e" />
