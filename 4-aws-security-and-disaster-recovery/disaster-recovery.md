@@ -57,9 +57,13 @@
     - Ability to create a DR repository for on-premise VMs
     - Ability to export back the VMs form EC2 to on-premise
 - AWS Application Discovery Service:
+    - This service is BEFORE you do the migration (with MGN)
+    - Agentless vs Agent-based discovery **??**
     - Gather information about on-premise servers to plan a migration
     - Provides information about server utilization and dependency mappings
     - Track all migrations with AWS Migration Hub
 - AWS Database Migration Service (DMS)
-- AWS Server Migration Service (SMS):
+- AWS Application Migration Service (MGN)
+    - 
+- AWS Server Migration Service (SMS): **??**
     - Incremental replication of on-premise live servers to AWS
