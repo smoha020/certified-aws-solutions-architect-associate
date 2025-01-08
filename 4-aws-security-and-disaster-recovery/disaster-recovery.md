@@ -90,3 +90,8 @@
 
 ## Transferring Large Amounts of Data into AWS
 - <img width="401" alt="image" src="https://github.com/user-attachments/assets/fc64d611-6d63-4eef-b580-4dd9033d4105" />
+
+## VMWare Cloud on AWS
+- VMWare basics: https://www.youtube.com/watch?v=B_H3TJlbEiw
+- VMWare Cloud: https://www.youtube.com/watch?v=qzmGRRplggs
+- VMWare components: https://www.youtube.com/watch?v=zPNCp9AV-vA&t=25s&ab_channel=IBMTechnology
