@@ -81,3 +81,9 @@
     - On Prem MySQL to Aurora using Percona:
         - https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/migrate-on-premises-mysql-databases-to-aurora-mysql-using-percona-xtrabackup-amazon-efs-and-amazon-s3.html
         - ![image](https://github.com/user-attachments/assets/2dfce81c-d48d-4cec-b285-53c6f9e76509)
+
+## AWS Backup
+- <img width="433" alt="image" src="https://github.com/user-attachments/assets/5fc28a41-f383-4ec8-9cb3-b1674810380c" />
+- <img width="425" alt="image" src="https://github.com/user-attachments/assets/c210a0c5-e63c-47dc-8cf7-8be72380e439" />
+- <img width="412" alt="image" src="https://github.com/user-attachments/assets/b3da5b4d-dba6-4d97-a225-32da8ffc6cdc" />
+
