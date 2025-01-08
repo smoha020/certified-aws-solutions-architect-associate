@@ -72,6 +72,7 @@
 
 - AWS Database Migration Service (DMS)
 - AWS Application Migration Service (MGN)
+    - Migrate applications such as SAP, Oracle, and SQL Server running on physical servers, VMware vSphere, Microsoft Hyper-V, and other on-premises infrastructure.
     - <img width="535" alt="image" src="https://github.com/user-attachments/assets/8fc0e0c4-e570-4425-9eb4-f52553b3728e" />
 - AWS Server Migration Service (SMS): **??**
     - Incremental replication of on-premise live servers to AWS
