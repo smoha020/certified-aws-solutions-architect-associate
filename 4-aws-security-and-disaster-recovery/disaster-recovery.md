@@ -78,4 +78,6 @@
     - Incremental replication of on-premise live servers to AWS
 
 ## RDS & Aurora MySQL Migration
-- Scenrario: You want to migrate data from RDS MySQL to Aurora MySQL
+- Scenrario: You want to migrate data from RDS MySQL to Aurora MySQL. Here are the options:
+    - <img width="456" alt="image" src="https://github.com/user-attachments/assets/49aa1238-0362-4645-b22b-f9ba687c851e" />
+
