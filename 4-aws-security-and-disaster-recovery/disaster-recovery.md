@@ -80,6 +80,8 @@
 ## RDS & Aurora MySQL Migration
 - Scenrario: You want to migrate data from RDS MySQL to Aurora MySQL. Here are the options:
     - <img width="456" alt="image" src="https://github.com/user-attachments/assets/49aa1238-0362-4645-b22b-f9ba687c851e" />
-    - Option: RDS to Aurora using Read Replica: https://aws.amazon.com/getting-started/hands-on/migrate-rdsmysql-to-auroramysql/
-    - On Prem MySQL to Aurora using Percona: https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/migrate-on-premises-mysql-databases-to-aurora-mysql-using-percona-xtrabackup-amazon-efs-and-amazon-s3.html
+    - Option: RDS to Aurora using Read Replica:
+        - https://aws.amazon.com/getting-started/hands-on/migrate-rdsmysql-to-auroramysql/
+    - On Prem MySQL to Aurora using Percona:
+        - https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/migrate-on-premises-mysql-databases-to-aurora-mysql-using-percona-xtrabackup-amazon-efs-and-amazon-s3.html
         - ![image](https://github.com/user-attachments/assets/2dfce81c-d48d-4cec-b285-53c6f9e76509)
